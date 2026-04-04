@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Login</title>
+  <link rel="stylesheet" href="login.css">
+</head>
+<body>
+  <header>
+    <nav>
+        <ul>
+        </ul>
+      </nav>
+  </header>
+  <div class="login-container">
+    <h2>Login</h2>
+    <form action="#" method="post">
+      <div class="input-group">
+        <input type="text" name="username" required>
+        <label>Username</label>
+      </div>
+      <div class="input-group">
+        <input type="password" name="password" required>
+        <label>password</label>
+      </div>
+      <button type="submit">Login</button>
+    </form>
+    <p class="signup-text">
+    
+      Don't have an account? <a href="signup.html"></a>
+       <button1 type="button">Sign up</button1>
+    </p>
+  </div>
+  <script>
+
+document.querySelector("form").addEventListener("submit", function(e){
+
+e.preventDefault();
+
+let username=document.querySelector('input[name="username"]').value;
+let password=document.querySelector('input[name="password"]').value;
+
+let storedUser=localStorage.getItem("username");
+let storedPass=localStorage.getItem("password");
+
+if(username===storedUser && password===storedPass)
+{
+alert("Login Successful");
+window.location="Home.html";
+}
+else
+{
+alert("Invalid Username or Password");
+}
+
+});
+
+</script>
+</body>
+
+</html>
+

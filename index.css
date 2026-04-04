@@ -1,0 +1,27 @@
+
+
+  body {
+  margin: 0;
+  height: 100vh;
+  display: flex;
+  justify-content: center;  
+  align-items: center;      
+  background-color: #7f9799; 
+}
+h2{
+
+  size: 100cm;
+}
+
+button {
+  width: 100%;
+  padding: 12px;
+  background: #11727f;
+  border: 10px;
+  border-radius: 8px;
+  color: rgb(17, 2, 2);
+  font-size: 16px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+

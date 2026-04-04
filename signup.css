@@ -1,0 +1,74 @@
+ body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+body{
+  margin: 0;
+  height: 100vh;
+  display: flex;
+  justify-content: center;  
+  align-items: center;
+  background-image: url(./IMAGE/softly-blurred-image-showcases-interior-600nw-2645898349.webp);
+      background-repeat: no-repeat;  
+    background-size: cover;        
+    background-position: center;
+}
+
+.signup-container {
+
+    background:  transparent color(prophoto-rgb rgb(22, 156, 166) rgb(2, 12, 18) rgb(0, 0, 7));
+  padding: 100px;
+  border-radius: 80px;
+  box-shadow:  4px 10px rgba(1, 12, 2, 0.2);
+  text-align: center;
+  width: 300px;
+  border-style: groove;
+  
+  
+}
+
+h2 {
+  color: #101010;
+  margin-bottom: 20px;
+}
+
+.input-group {
+  margin-bottom: 10px;
+}
+
+.input-group input {
+  width: 100%;
+  padding: 10px ;
+  border: none;
+  border-bottom: 2px solid #175864;
+  outline: none;
+  font-size: 16px;
+  background: transparent;
+}
+
+
+button {
+  width: 50%;
+  padding: 12px;
+  background: #11727f;
+  border: 10px;
+  border-radius: 8px;
+  color: rgb(17, 2, 2);
+  font-size: 16px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+button:hover {
+  background: #e35b50;
+}
+
+
+
+
+
